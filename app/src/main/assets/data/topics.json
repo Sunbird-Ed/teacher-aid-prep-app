@@ -1,0 +1,58 @@
+[
+  {
+    "id": "topic1",
+    "topic": "Structure of an Atom - Dalton",
+    "subject": "Science",
+    "class": "class 8",
+    "board": "State (Tamil Nadu)",
+    "medium": "English"
+  },
+  {
+    "id": "topic2",
+    "topic": "Structure of an Atom - Characteristics",
+    "subject": "Science",
+    "class": "class 8",
+    "board": "State (Tamil Nadu)",
+    "medium": "English"
+  },
+  {
+    "id": "topic3",
+    "topic": "Evolution of Life - Chemical Evolution",
+    "subject": "Science",
+    "class": "class 8",
+    "board": "State (Tamil Nadu)",
+    "medium": "English"
+  },
+  {
+    "id": "topic4",
+    "topic": "Ancient Civilizations - Egyptian",
+    "subject": "Social Studies",
+    "class": "class 8",
+    "board": "State (Tamil Nadu)",
+    "medium": "English"
+  },
+  {
+    "id": "topic5",
+    "topic": "Birth of new Religions - Buddhism",
+    "subject": "Social Studies",
+    "class": "class 8",
+    "board": "State (Tamil Nadu)",
+    "medium": "English"
+  },
+  {
+    "id": "topic6",
+    "topic": "Introduction to Graphs - Bar graphs",
+    "subject": "Maths",
+    "class": "class 8",
+    "board": "State (Tamil Nadu)",
+    "medium": "English"
+  },
+  {
+    "id": "topic7",
+    "topic": "Playing with Numbers - Games and Puzzles",
+    "subject": "Maths",
+    "class": "class 8",
+    "board": "State (Tamil Nadu)",
+    "medium": "English"
+  }
+]

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorOrange">#e55a28</color>
+    <color name="colorRed">#b91d46</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlack1">#333333</color>
+    <color name="colorBlack2">#1d1d1d</color>
+    <color name="colorBlue">#04407c</color>
+    <color name="colorBlue1">#024f9d</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorDarkerGrey">#53565a</color>
+    <color name="colorDarkerGrey1">#efefef</color>
+    <color name="colorDarkerGrey2">#dedede</color>
+    <color name="colorGrey">#b9bfd6</color>
+    <color name="colorGrey1">#999999</color>
+    <color name="colorGrey2">#666666</color>
+    <color name="colorGrey3">#f4f4f4</color>
+    <color name="cool_grey">#e6e7e8</color>
+    <color name="light_grey">#b1babf</color>
+    <color name="medium_grey">#5D5D5D</color>
+    <color name="error_red">#c01818</color>
+    <color name="colorPink">#DD558A</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_border">#ffafed44</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+
+</resources>

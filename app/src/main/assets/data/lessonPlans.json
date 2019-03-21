@@ -1,0 +1,461 @@
+[
+
+  {
+    "id": "lessonplan1",
+    "topic": "Structure of an Atom - Dalton",
+    "subject": "Science",
+    "Class": "Class 8",
+    "medium": "English",
+    "board": "State (Tamil Nadu)",
+    "pedagogyFlow": "Introduction -> Engagement ->Assessment -> Reflection",
+    "description": "To learn and understand the postulates of Dalton’s atomic theory.To describe J.J. Thomson’s experiment on the discovery of electrons.",
+    "totalDuration": "45 mins",
+    "teachingMethods": [
+      {
+        "id": "method1",
+        "shortDescription": "Narrate a short story about the first time someone thought of the existence of \"atoms and matter.\" Further, talk briefly about the postulates stated by Dalton and J.J. Thomson’s experiment on the discovery of electrons.  ",
+        "duration": "10 mins",
+        "pedagogyStep": "Introduction",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomdaltonintrostorytelling.htm",
+        "methodType": "Storytelling"
+      },
+      {
+        "id": "method2",
+        "shortDescription": "Self-study and peer assisted learning is a method where students are encouraged to study and explain their understanding to their group members on the concepts of “Dalton’s atomic theory and JJ Thomson’s atomic model ”. Ask student's to take note of important points.",
+        "duration": "20 mins",
+        "pedagogyStep": "Engagement",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomdaltonengagementpeerlearning.htm",
+        "methodType": "Peer learning"
+      },
+      {
+        "id": "method3",
+        "shortDescription": "Ask the students to answer the given questions in their notebook. They can refer the textbook. Following that, the students can discuss their answer scripts with their Classmates.",
+        "duration": "10 mins",
+        "pedagogyStep": "Assessment",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomdaltonassessmentquestions.htm",
+        "methodType": "Quetions (wrirten)"
+      },
+      {
+        "id": "method4",
+        "shortDescription": "Help students recollect the concepts learnt in today’s Class and discuss it with their Classmates. Instruct the students to read the key points aloud.    ",
+        "duration": "5 mins",
+        "pedagogyStep": "Reflection",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomdaltonreflectiondiscussion.htm",
+        "methodType": "Discussion"
+      }
+    ]
+  },
+  {
+    "id": "lessonplan2",
+    "topic": "Structure of an Atom - Dalton",
+    "subject": "Science",
+    "Class": "Class 8",
+    "board": "State (Tamil Nadu)",
+    "medium": "English",
+    "pedagogyFlow": "Introduction -> Engagement ->Assessment -> Reflection",
+    "description": "To learn and understand the postulates of Dalton’s atomic theory.To describe J.J. Thomson’s experiment on the discovery of electrons.",
+    "totalDuration": "45 min",
+    "teachingMethods": [
+      {
+        "id": "method1",
+        "shortDescription": "Narrate a short story about the first time someone thought of the existence of \"atoms and matter.\" Further, talk briefly about the postulates stated by Dalton and J.J. Thomson’s experiment on the discovery of electrons.",
+        "duration": "10 mins",
+        "pedagogyStep": "Introduction",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomdaltonintrostorytelling.htm",
+        "methodType": "Storytelling"
+      },
+      {
+        "id": "method2",
+        "shortDescription": "Make students learn and understand the atomic theory put forward by Dalton and JJ Thomson’s experiment on the discovery of electrons through a detailed explanation. Encourage students to note the important points. Then, ask a few students to summarize the concepts in their own words.",
+        "duration": "20 mins",
+        "pedagogyStep": "Engagement",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomdaltonengagementlecture.htm",
+        "methodType": "Lecture explanation  "
+      },
+      {
+        "id": "method3",
+        "shortDescription": "Ask the students to answer the given questions in their notebook. They can refer the textbook. Following that, the students can discuss their answer scripts with their Classmates.",
+        "duration": "10 mins",
+        "pedagogyStep": "Assessment",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomdaltonassessmentquestions.htm",
+        "methodType": "Questions (written)"
+      },
+      {
+        "id": "method4",
+        "shortDescription": "Ask the students to recapitulate the concepts learnt in today’s Class and to summarize the same in their note books. Then, allow students to write a few key points on the black board.",
+        "duration": "5 mins",
+        "pedagogyStep": "Reflection",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomdaltonreflectionwriting.htm",
+        "methodType": "Writing exercise"
+      }
+    ]
+  },
+
+  {
+    "id": "lessonplan3",
+    "topic": "Structure of an Atom - Characteristics",
+    "subject": "Science",
+    "Class": "Class 8",
+    "board": "State (Tamil Nadu)",
+    "medium": "English",
+    "pedagogyFlow": "Introduction -> Engagement ->Assessment -> Reflection",
+    "description": "To learn and understand the characteristics of cathode and anode rays and to describe Rutherford’s model of an atom.",
+    "totalDuration": "45 mins",
+    "teachingMethods": [
+      {
+        "id": "method1",
+        "shortDescription": "Start a discussion around atoms, cathode and anode rays. Tell the students why it is important to know atomic structure. Then, introduce the Rutherford's model of atomic structure. Encourage students to participate in the discussion.",
+        "duration": "10 mins",
+        "pedagogyStep": "Introduction",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomcharacteristicsintrodiscussion.htm",
+        "methodType": "Discussion"
+      },
+      {
+        "id": "method2",
+        "shortDescription": "Make students learn and understand the Characteristics of Cathode and Anode rays along with the Atomic Model proposed by Rutherford through a detailed explanation. Encourage students to take notes when needed.",
+        "duration": "20 mins",
+        "pedagogyStep": "Engagement",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomcharacteristicsengagementlecture.htm",
+        "methodType": "Lecture explanation  "
+      },
+      {
+        "id": "method3",
+        "shortDescription": "Ask the students to answer the given questions in their notebook. They can refer the textbook to do. Then, allow them to discuss the answer scripts with their peers.",
+        "duration": "10 mins",
+        "pedagogyStep": "Assessment",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomcharacteristicsassessmentwriting.htm",
+        "methodType": "Writing exercise"
+      },
+      {
+        "id": "method4",
+        "shortDescription": "Help students to recollect the concepts learnt in today’s Class and discuss the same with their Classmates. Instruct the students to read the key points aloud.",
+        "duration": "5 mins",
+        "pedagogyStep": "Reflection",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomcharacteristicsreflectiondiscussion.htm",
+        "methodType": "Discussion"
+      }
+    ]
+  },
+  {
+    "id": "lessonplan4",
+    "topic": "Structure of an Atom - Characteristics",
+    "subject": "Science",
+    "Class": "Class 8",
+    "medium": "English",
+    "board": "State (Tamil Nadu)",
+    "pedagogyFlow": "Introduction -> Engagement ->Assessment -> Reflection",
+    "description": "To learn and understand the characteristics of cathode and anode rays and to describe Rutherford’s model of an atom.",
+    "totalDuration": "45 mins",
+    "teachingMethods": [
+      {
+        "id": "method1",
+        "shortDescription": "Ask your students a few general knowledge questions. Allow them to analyse and voice out their views. Encourage students to discuss among themselves and answer. Further, tell the students that in today’s Class they would be learning the postulates of Dalton’s atomic theory and Thomson’s experiment on the discovery of electrons.",
+        "duration": "10 mins",
+        "pedagogyStep": "Introduction",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomcharacteristicsintrodiscussion.htm",
+        "methodType": "Discussion"
+      },
+      {
+        "id": "method2",
+        "shortDescription": "Self-study and peer assisted learning where students are encouraged to study and explain their understanding to their group members “Rutherford’s atomic model”. Watch out and appreciate the group which explains the concepts clearly.",
+        "duration": "20 mins",
+        "pedagogyStep": "Engagement",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomcharacteristicsengagementpeerlearning.htm",
+        "methodType": "Peer learning"
+      },
+      {
+        "id": "method3",
+        "shortDescription": "Distribute the given quiz sheets in Class. Allow students to solve the questions. Then, discuss the correct answers on the board.",
+        "duration": "10 mins",
+        "pedagogyStep": "Assessment",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomcharacteristicsassessmenttest.htm",
+        "methodType": "Test / Assessment"
+      },
+      {
+        "id": "method4",
+        "shortDescription": "Ask the students to recapitulate the concepts learnt in today’s Class and to summarize the same in their note books. Then, allow students to write a few key points on the black board.",
+        "duration": "5 mins",
+        "pedagogyStep": "Reflection",
+        "longDescription":"file:///android_asset/long_dec/8sciencestructureofatomcharacteristicsreflectionwriting.htm",
+        "methodType": "Writing exercise"
+      }
+    ]
+  },
+
+  {
+    "id": "lessonplan5",
+    "topic": "Evolution of Life - Chemical Evolution",
+    "subject": "Science",
+    "Class": "Class 8",
+    "medium": "English",
+    "board": "State (Tamil Nadu)",
+    "pedagogyFlow": "Introduction -> Engagement ->Assessment -> Reflection",
+    "description": "To make students understand \na) how Early Earth looked like \nb) how life gradually evolved with chemical evolution on earth\nc) the various conditions and changes that created a life-sustaining atmosphere on earth",
+    "totalDuration": "30 mins",
+    "teachingMethods": [
+      {
+        "id": "method1",
+        "shortDescription": "Ask students what they think about when they hear the term \"early earth\" Wait for them to respond before going projecting the given pictures. Then, ask them the same question again and notice the difference.    ",
+        "duration": "10 mins",
+        "pedagogyStep": "Introduction",
+        "longDescription":"file:///android_asset/long_dec/8scienceevolutionoflifechemicalevolutionintrobrainstroming.htm",
+        "methodType": "Brainstorming"
+      },
+      {
+        "id": "method2",
+        "shortDescription": "With the brief understanding of early earth and a theory to support it, let’s move ahead to see how life slowly evolved on primitive earth.",
+        "duration": "5 mins",
+        "pedagogyStep": "Engagement",
+        "longDescription":"file:///android_asset/long_dec/8scienceevolutionoflifechemicalevolutionengagemnetpicillustraion.htm",
+        "methodType": "Picture / Illustration"
+      },
+      {
+        "id": "method3",
+        "shortDescription": "Pick up important topics of discussion from today’s session and ask students to individually write short notes on each topic.",
+        "duration": "10 mins",
+        "pedagogyStep": "Assessment",
+        "longDescription":"file:///android_asset/long_dec/8scienceevolutionoflifechemicalevolutionassessmentwriting.htm",
+        "methodType": "Writing exercise"
+      },
+      {
+        "id": "method4",
+        "shortDescription": "Inform the students that you will be summarizing the key points of today’s Class on the board. Ask them to recollect the concepts learnt in this Class and suggest the key points.",
+        "duration": "5 mins",
+        "longDescription":"file:///android_asset/long_dec/8scienceevolutionoflifechemicalevolutionreflectiondiscussion.htm",
+        "pedagogyStep": "Reflection",
+        "methodType": "Discussion"
+      }
+    ]
+  },
+  {
+    "id": "lessonplan6",
+    "topic": "Evolution of Life - Chemical Evolution",
+    "subject": "Science",
+    "Class": "Class 8",
+    "medium": "English",
+    "board": "State (Tamil Nadu)",
+    "pedagogyFlow": "Introduction -> Engagement ->Assessment -> Reflection",
+    "description": "To make students understand \na) how Early Earth looked like \nb) how life gradually evolved with chemical evolution on earth\nc) the various conditions and changes that created a life-sustaining atmosphere on earth",
+    "totalDuration": "20 min",
+    "teachingMethods": [
+      {
+        "id": "method1",
+        "shortDescription": "Ask students what they think about when they hear the term \"early earth\" Wait for them to respond before going projecting the given pictures. Then, ask them the same question again and notice the difference.",
+        "duration": "5 mins",
+        "longDescription":"file:///android_asset/long_dec/8scienceevolutionoflifechemicalevolutionintrovideo.htm",
+        "pedagogyStep": "Introduction",
+        "methodType": "Videos"
+      },
+      {
+        "id": "method2",
+        "shortDescription": "With the brief understanding of early earth and a theory to support it, let’s move ahead to see how life slowly evolved on primitive earth.",
+        "duration": "5 mins",
+        "pedagogyStep": "Engagement",
+        "longDescription":"file:///android_asset/long_dec/8scienceevolutionoflifechemicalevolutionengagemnetpicillustraion.htm",
+        "methodType": "Picture / Illustration"
+      },
+      {
+        "id": "method3",
+        "shortDescription": "Give a sheet of questions to students and ask them to identify the correct answer from the multiple choices provided for each question.",
+        "duration": "5 mins",
+        "pedagogyStep": "Assessment",
+        "longDescription":"file:///android_asset/long_dec/8scienceevolutionoflifechemicalevolutionassessmentquestions.htm",
+        "methodType": "Questions (activity based)"
+      },
+      {
+        "id": "method4",
+        "shortDescription": "Inform the students that you will be summarizing the key points of today’s Class on the board. Ask them to recollect the concepts learnt in this Class and suggest the key points.",
+        "duration": "5 mins",
+        "longDescription":"file:///android_asset/long_dec/8scienceevolutionoflifechemicalevolutionreflectiondiscussion.htm",
+        "pedagogyStep": "Reflection",
+        "methodType": "Discussion"
+      }
+    ]
+  },
+
+
+  {
+    "id": "lessonplan7",
+    "topic": "Ancient Civilizations - Egyptian",
+    "subject": "Social Studies",
+    "Class": "Class 8",
+    "medium": "English",
+    "board": "State (Tamil Nadu)",
+    "pedagogyFlow": "Introduction -> Engagement ->Assessment -> Reflection",
+    "description": "To learn and understand how Egyptian Civilization flourished. ",
+    "totalDuration": "45 mins",
+    "teachingMethods": [
+      {
+        "id": "method1",
+        "shortDescription": "Ask the students to list down the 7 wonders of the World. Also ask if they all have visited at least one of the wonders. Tell them to locate the countries to which they belong. [Or] You can project the images and ask them to identify. Also tell them that in today’s class they will learn how civilizations flourished in other parts of the world, and in particular the Egyptian Civilization.",
+        "duration": "10 mins",
+        "longDescription":"file:///android_asset/long_dec/8socialancientcivilizationsegyptianintroblackboard.htm",
+        "pedagogyStep": "Introduction",
+        "methodType": "Blackboard"
+      },
+      {
+        "id": "method2",
+        "shortDescription": "Encourage students to study and explain their understanding on the topic “The Egyptian Civilization” to their classmates. Divide the class into small groups [say 5 in each group]. Observe and appreciate the group that explains the concepts clearly.",
+        "duration": "20 mins",
+        "pedagogyStep": "Engagement",
+        "longDescription":"file:///android_asset/long_dec/8socialancientcivilizationsegyptianengagementpeerlearning.htm",
+        "methodType": "Peer learning"
+      },
+      {
+        "id": "method3",
+        "shortDescription": "Ask your students’ to recollect the concepts learnt in today’s class on ‘The Egyptian Civilization’. Now, ask them to compare the Indus Valley Civilization with that of Egyptian Civilization and discuss the similarities between the two.",
+        "duration": "10 mins",
+        "pedagogyStep": "Assessment",
+        "longDescription":"file:///android_asset/long_dec/8socialancientcivilizationsegyptianassessmentdiscussion.htm",
+        "methodType": "Discussion"
+      },
+      {
+        "id": "method4",
+        "shortDescription": "Inform the students that you will be summarizing the key points of today’s Class on the board. Ask them to recollect the concepts learnt in this Class and suggest the key points.",
+        "duration": "5 mins",
+        "longDescription":"file:///android_asset/long_dec/8socialancientcivilizationsegyptianreflectionreadingactivity.htm",
+        "pedagogyStep": "Reflection",
+        "methodType": "Reading activity"
+      }
+    ]
+  },
+  {
+    "id": "lessonplan8",
+    "topic": "Ancient Civilizations - Egyptian",
+    "subject": "Social Studies",
+    "Class": "Class 8",
+    "medium": "English",
+    "board": "State (Tamil Nadu)",
+    "pedagogyFlow": "Introduction -> Engagement ->Assessment -> Reflection",
+    "description": "To learn and understand how Egyptian Civilization flourished. ",
+    "totalDuration": "45 mins",
+    "teachingMethods": [
+      {
+        "id": "method1",
+        "shortDescription": "Ask the students to list down the 7 wonders of the World. Also ask if they all have visited at least one of the wonders. Tell them to locate the countries to which they belong. [Or] You can project the images and ask them to identify. Also tell them that in today’s class they will learn how civilizations flourished in other parts of the world, and in particular the Egyptian Civilization.",
+        "duration": "10 mins",
+        "longDescription":"file:///android_asset/long_dec/8socialancientcivilizationsegyptianintroblackboard.htm",
+        "pedagogyStep": "Introduction",
+        "methodType": "Blackboard"
+      },
+      {
+        "id": "method2",
+        "shortDescription": "Make students learn and understand the art, architecture and life style of Egyptian Civilization through a detailed explanation. Ask questions throughout the lecture, so that the lecture becomes more of a conversation.",
+        "duration": "20 mins",
+        "pedagogyStep": "Engagement",
+        "longDescription":"file:///android_asset/long_dec/8socialancientcivilizationsegyptianengagementlecture.htm",
+        "methodType": "Lecture explanation"
+      },
+      {
+        "id": "method3",
+        "shortDescription": "Ask your students to carry a physical map of Egypt. Tell them to mark/label the following on a physical map of Egypt. 1. River Nile 2.Suez Canal 3.Alexandria City 4.Red Sea.",
+        "duration": "10 mins",
+        "pedagogyStep": "Assessment",
+        "longDescription":"file:///android_asset/long_dec/8socialancientcivilizationsegyptianassessmenthandsonactivity.htm",
+        "methodType": "Hands-on activity"
+      },
+      {
+        "id": "method4",
+        "shortDescription": "Help students recollect the concepts learnt in today’s class by asking them to repeat the key points with the help of flash cards.",
+        "duration": "5 mins",
+        "longDescription":"file:///android_asset/long_dec/8socialancientcivilizationsegyptianreflectionreadingactivity.htm",
+        "pedagogyStep": "Reflection",
+        "methodType": "Reading activity"
+      }
+    ]
+  },
+
+  {
+    "id": "lessonplan9",
+    "topic": "Birth of new Religions - Buddhism",
+    "subject": "Social Studies",
+    "Class": "Class 8",
+    "medium": "English",
+    "board": "State (Tamil Nadu)",
+    "pedagogyFlow": "Introduction -> Engagement ->Assessment -> Reflection",
+    "description": "To learn and understand the origin and principles of Buddhism. To understand the foreign invasions that took place around the same period.",
+    "totalDuration": "50 mins",
+    "teachingMethods": [
+      {
+        "id": "method1",
+        "shortDescription": "Narrate a story (Story of Siddhartha) and introduce the class to the development and rise of Buddhism. Tell the students, by the end of the class they would learn and understand the preaching’s of Buddha.",
+        "duration": "10 mins",
+        "longDescription":"file:///android_asset/long_dec/8socialbirthofnewreligionsbuddhismintostorytelling.htm",
+        "pedagogyStep": "Introduction",
+        "methodType": "Storytelling"
+      },
+      {
+        "id": "method2",
+        "shortDescription": "Begin this session with a brief recap of what has been covered so far. Explain in detail to the students the origins of new religion and the principles of Buddhism.",
+        "duration": "20 mins",
+        "pedagogyStep": "Engagement",
+        "longDescription":"file:///android_asset/long_dec/8socialbirthofnewreligionsbuddhismengagementlecture.htm",
+        "methodType": "Lecture explanation"
+      },
+      {
+        "id": "method3",
+        "shortDescription": "Ask a couple of questions, preferably write them on the board. Give your students a minute’s time to understand the question. Divide the class into groups of 4-5. Next, have students discuss the question with their group members. Ask them to share their ideas.",
+        "duration": "15 mins",
+        "pedagogyStep": "Assessment",
+        "longDescription":"file:///android_asset/long_dec/8socialbirthofnewreligionsbuddhismassessmentdiscussion.htm",
+        "methodType": "Discussion"
+      },
+      {
+        "id": "method4",
+        "shortDescription": "Ask your students to recollect the concepts learnt in today’s class and to discuss the same with their classmates. Instruct them to list down the key points. Ask one of them to read out loud at the end of the class.",
+        "duration": "5 mins",
+        "longDescription":"file:///android_asset/long_dec/8socialbirthofnewreligionsbuddhismreflectiondiscussion.htm",
+        "pedagogyStep": "Reflection",
+        "methodType": "Discussion"
+      }
+    ]
+  },
+  {
+    "id": "lessonplan10",
+    "topic": "Birth of new Religions - Buddhism",
+    "subject": "Social Studies",
+    "Class": "Class 8",
+    "medium": "English",
+    "board": "State (Tamil Nadu)",
+    "pedagogyFlow": "Introduction -> Engagement ->Assessment -> Reflection",
+    "description": "To learn and understand the origin and principles of Buddhism. To understand the foreign invasions that took place around the same period.",
+    "totalDuration": "50 mins",
+    "teachingMethods": [
+      {
+        "id": "method1",
+        "shortDescription": "Narrate a story (Story of Siddhartha) and introduce the class to the development and rise of Buddhism. Tell the students, by the end of the class they would learn and understand the preaching’s of Buddha.",
+        "duration": "10 mins",
+        "longDescription":"file:///android_asset/long_dec/8socialbirthofnewreligionsbuddhismintostorytelling.htm",
+        "pedagogyStep": "Introduction",
+        "methodType": "Storytelling"
+      },
+      {
+        "id": "method2",
+        "shortDescription": "Begin this session with a brief recap of what has been covered so far. Explain in detail to the students the origins of new religion and the principles of Buddhism.",
+        "duration": "20 mins",
+        "pedagogyStep": "Engagement",
+        "longDescription":"file:///android_asset/long_dec/8socialbirthofnewreligionsbuddhismengagementlecture.htm",
+        "methodType": "Lecture explanation"
+      },
+      {
+        "id": "method3",
+        "shortDescription": "Conduct a class test on the concepts taught in this class to assess students’ knowledge and understanding. This test contains fill in blanks and short answer questions. Award marks and grades accordingly. Discuss the answers at the end of the class.",
+        "duration": "15 mins",
+        "pedagogyStep": "Assessment",
+        "longDescription":"file:///android_asset/long_dec/8socialbirthofnewreligionsbuddhismassessmenttest.htm",
+        "methodType": "Test / Assessment"
+      },
+      {
+        "id": "method4",
+        "shortDescription": "Ask the students to recapitulate the concepts learnt in today’s class and to summarize the same in their note books. Students are asked to help teacher to write the key points on the black board.",
+        "duration": "5 mins",
+        "longDescription":"file:///android_asset/long_dec/8socialbirthofnewreligionsbuddhismreflectionwriting.htm",
+        "pedagogyStep": "Reflection",
+        "methodType": "Writing exercise"
+      }
+    ]
+  }
+
+]
+
+

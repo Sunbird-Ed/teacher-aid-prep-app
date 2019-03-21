@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="authority_profiles">org.sunbird.teacheraid.profiles</string>
+    <string name="authority_telemetry">org.sunbird.teacheraid.telemetry</string>
+    <string name="authority_partner">org.sunbird.teacheraid.partner</string>
+    <string name="authority_content">org.sunbird.teacheraid.content</string>
+    <string name="authority_summarizer">org.sunbird.teacheraid.summarizer</string>
+
+</resources>

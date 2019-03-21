@@ -1,0 +1,175 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.gurug.education"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.ic_default.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+
+        debug {
+            storeFile file("teacherAid")
+            storePassword "ekstep@123"
+            keyAlias "teacherAid"
+            keyPassword "ekstep@123"
+        }
+
+        release {
+            storeFile file("teacherAid")
+            storePassword "teacherAid@123"
+            keyAlias "teacherAid"
+            keyPassword "teacherAid@123"
+        }
+    }
+
+    buildTypes {
+        release {
+            buildConfigField "int", "TEST", "42"
+            buildConfigField "int", "DB_VERSION", "2"
+            buildConfigField "String", "DATABASE_NAME", "\"ekstep_less_plan.db\""
+            buildConfigField "boolean", "LOG", "false"
+            buildConfigField "String", "BASE_URL", "\"https://staging.ntp.net.in\""
+            buildConfigField 'String', 'TELEMETRY_BASE_URL', '"https://staging.ntp.net.in/api/data/v1"'
+            buildConfigField 'String', 'LANGUAGE_PLATFORM_BASE_URL', '"https://staging.ntp.net.in/api/language/v1"'
+            buildConfigField 'String', 'TERMS_BASE_URL', '"https://staging.ntp.net.in/api/domain/v1"'
+            buildConfigField 'String', 'CONFIG_BASE_URL', '"https://staging.ntp.net.in/api/meta/v1"'
+            buildConfigField 'String', 'SEARCH_BASE_URL', '"https://staging.ntp.net.in/api/composite/v1"'
+            buildConfigField 'String', 'CONTENT_LISTING_BASE_URL', '"https://staging.ntp.net.in/api/data/v1"'
+            buildConfigField 'String', 'CONTENT_BASE_URL', '"https://staging.ntp.net.in/api/content/v1"'
+            buildConfigField 'String', 'APIGATEWAY_BASE_URL', '"https://staging.ntp.net.in/api/api-manager/v1"'
+            buildConfigField 'String', 'PRODUCER_ID', '"PRODUCER_ID"'
+            buildConfigField 'String', 'PRODUCER_UNIQUE_ID', '"PRODUCER_UNIQUE_ID"'
+            buildConfigField 'String', 'CHANNEL_ID', '"CHANNEL_ID"'
+            buildConfigField 'String', 'LOG_LEVEL', '"INFO"'
+            buildConfigField 'String', 'PROFILE_CONFIG', '"org.ekstep.genie.base.ProfileConfig"'
+            buildConfigField 'String', 'PLAYER_CONFIG', '"com.gurug.education.utill.PlayerConfig"'
+            buildConfigField 'int', 'MAX_COMPATIBILITY_LEVEL', "4"
+            /*buildConfigField 'String', 'MOBILE_APP_CONSUMER', '"mobile_device_teacheraid"'
+            buildConfigField 'String', 'MOBILE_APP_KEY', '"0bad2971aee14143ca60"'
+            buildConfigField 'String', 'MOBILE_APP_SECRET', '"098127e622254c49806495147bdd10da"'*/
+            buildConfigField 'String', 'MOBILE_APP_CONSUMER', '"mobile_device_teacheraid"'
+            buildConfigField 'String', 'MOBILE_APP_KEY', '"d9a9d6490df74c0e8b10a586b07bcaa9"'
+            buildConfigField 'String', 'MOBILE_APP_SECRET', '"b41f7034b5444b688bc00759bf5dabe1"'
+            minifyEnabled false
+            signingConfig signingConfigs.release
+
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            buildConfigField "int", "TEST", "42"
+            buildConfigField "int", "DB_VERSION", "2"
+            buildConfigField "String", "DATABASE_NAME", "\"ekstep_less_plan.db\""
+            buildConfigField "boolean", "LOG", "true"
+            buildConfigField "String", "BASE_URL", "\"https://staging.ntp.net.in\""
+            buildConfigField 'String', 'TELEMETRY_BASE_URL', '"https://staging.ntp.net.in/api/data/v1"'
+            buildConfigField 'String', 'LANGUAGE_PLATFORM_BASE_URL', '"https://staging.ntp.net.in/api/language/v1"'
+            buildConfigField 'String', 'TERMS_BASE_URL', '"https://staging.ntp.net.in/api/domain/v1"'
+            buildConfigField 'String', 'CONFIG_BASE_URL', '"https://staging.ntp.net.in/api/meta/v1"'
+            buildConfigField 'String', 'SEARCH_BASE_URL', '"https://staging.ntp.net.in/api/composite/v1"'
+            buildConfigField 'String', 'CONTENT_LISTING_BASE_URL', '"https://staging.ntp.net.in/api/data/v1"'
+            buildConfigField 'String', 'CONTENT_BASE_URL', '"https://staging.ntp.net.in/api/content/v1"'
+            buildConfigField 'String', 'APIGATEWAY_BASE_URL', '"https://staging.ntp.net.in/api/api-manager/v1"'
+            buildConfigField 'String', 'PRODUCER_ID', '"PRODUCER_ID"'
+            buildConfigField 'String', 'PRODUCER_UNIQUE_ID', '"PRODUCER_UNIQUE_ID"'
+            buildConfigField 'String', 'CHANNEL_ID', '"CHANNEL_ID"'
+            buildConfigField 'String', 'LOG_LEVEL', '"INFO"'
+            buildConfigField 'String', 'PROFILE_CONFIG', '"org.ekstep.genie.base.ProfileConfig"'
+            buildConfigField 'String', 'PLAYER_CONFIG', '"com.gurug.education.utill.PlayerConfig"'
+            buildConfigField 'int', 'MAX_COMPATIBILITY_LEVEL', "4"
+            /*buildConfigField 'String', 'MOBILE_APP_CONSUMER', '"mobile_device_teacheraid"'
+            buildConfigField 'String', 'MOBILE_APP_KEY', '"0bad2971aee14143ca60"'
+            buildConfigField 'String', 'MOBILE_APP_SECRET', '"098127e622254c49806495147bdd10da"'*/
+            buildConfigField 'String', 'MOBILE_APP_CONSUMER', '"mobile_device_teacheraid"'
+            buildConfigField 'String', 'MOBILE_APP_KEY', '"d9a9d6490df74c0e8b10a586b07bcaa9"'
+            buildConfigField 'String', 'MOBILE_APP_SECRET', '"b41f7034b5444b688bc00759bf5dabe1"'
+
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    flavorDimensions "default"
+    productFlavors {
+        ekstep {
+            applicationId "org.sunbird.teacheraid"
+            minSdkVersion 21
+            targetSdkVersion 28
+            versionCode 1
+            versionName "1.0"
+        }
+        gurug {
+            applicationId "com.gurug.teacher"
+            minSdkVersion 21
+            targetSdkVersion 28
+            versionCode 1
+            versionName "1.0"
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.dagger:dagger:2.5'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.5'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    //Room
+    implementation 'android.arch.persistence.room:runtime:1.1.1'
+    annotationProcessor 'android.arch.persistence.room:compiler:1.1.1'
+    // ViewModel and LiveData
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    // alternatively, just ViewModel
+    implementation 'android.arch.lifecycle:viewmodel:1.1.1'
+    // alternatively, just LiveData
+    implementation 'android.arch.lifecycle:livedata:1.1.1'
+    implementation 'com.android.support:multidex:1.0.3'
+    testImplementation 'org.mockito:mockito-core:2.22.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.8'
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+
+    //noinspection GradlePath
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    implementation 'com.jakewharton:butterknife-compiler:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+
+    implementation 'com.google.zxing:core:3.3.3'
+    implementation "org.ekstep.genieservices:genie-providers:1.0.629"
+    implementation "org.ekstep.genieservices:genie-integration:1.0.629"
+    implementation "org.apache.cordova:CordovaLib:1.0@aar"
+    implementation "org.ekstep.geniecanvas:geniecanvas_sharedxwalk:3.1.402@aar"
+
+
+    implementation "org.xwalk:xwalk_shared_library:22+"
+
+    implementation 'com.facebook.stetho:stetho:1.5.0'
+
+    implementation 'com.commonsware.cwac:saferoom:0.4.4'
+
+
+}

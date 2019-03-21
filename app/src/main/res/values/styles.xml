@@ -1,0 +1,175 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme Black Background. -->
+    <style name="AppTheme_black" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorSecondary">@color/colorWhite</item>
+        <item name="android:colorBackground">@color/colorBlack</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:actionMenuTextAppearance">@style/MyActionBar.MenuTextStyle</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+    </style>
+
+    <!-- Base application theme White Background. -->
+    <style name="AppTheme_white" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBlue</item>
+        <item name="colorPrimaryDark">@color/colorBlue</item>
+        <item name="colorAccent">@color/colorBlue</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:textColorSecondary">@color/colorBlack</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorBackground">@color/colorWhite</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:actionMenuTextAppearance">@style/MyActionBar.MenuTextStyle</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+    </style>
+
+    <!-- Base application theme Blue Background. -->
+    <style name="AppTheme_blue" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:textColorSecondary">@color/colorBlack</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorBackground">@color/colorBlue</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:actionMenuTextAppearance">@style/MyActionBar.MenuTextStyle</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+    </style>
+
+    <!-- Base application theme without status bar, Blue Background. -->
+    <style name="AppThemeNoStatusBar_blue" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:colorBackground">@color/colorBlue</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+    </style>
+    <!-- Base application theme without status bar, Blue Background. -->
+    <style name="AppThemeNoStatusBar_white" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:colorBackground">@color/colorWhite</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+    </style>
+
+    <!-- Base application theme without status bar, black Background. -->
+    <style name="AppThemeNoStatusBar_black" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:colorBackground">@color/colorBlack</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+    </style>
+
+    <style name="MyActionBar.MenuTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/_14sp</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@color/colorWhite</item>
+        <item name="android:dropDownHorizontalOffset">@dimen/dp_10</item>
+        <item name="android:dropDownVerticalOffset">@dimen/dp_10</item>
+    </style>
+
+    <!-- Alert Dialog -->
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/colorBlack</item>
+        <item name="android:textColorPrimary">@color/colorBlack</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:colorBackground">@color/colorWhite</item>
+
+    </style><!-- TextView Heading -->
+
+    <style name="TextView">
+        <item name="android:textSize">@dimen/_24sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+    </style>
+
+    <!-- TextView Error -->
+    <style name="TextViewError">
+        <item name="android:textSize">@dimen/_19sp</item>
+        <item name="android:textColor">@color/error_red</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <!-- EditText  -->
+    <style name="EditText">
+        <item name="android:textSize">@dimen/_16sp</item>
+        <item name="android:textColor">@color/cool_grey</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:textColorHint">@color/cool_grey</item>
+        <item name="android:background">@drawable/edit_text_bottom_line</item>
+        <item name="android:paddingBottom">@dimen/dp_10</item>
+
+    </style><!-- Button  -->
+    <style name="Button">
+        <item name="android:textSize">@dimen/_11sp</item>
+        <item name="android:textColor">@color/cool_grey</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:background">@drawable/btn_bg_selector</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+
+    <style name="TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/TabText</item>
+        <item name="tabIndicatorColor">@color/colorWhite</item>
+        <item name="tabIndicatorHeight">@dimen/dp_4</item>
+    </style>
+
+    <style name="TabLayoutSrDetails" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/TabTextSrDetails</item>
+        <item name="tabIndicatorColor">@color/colorWhite</item>
+        <item name="tabIndicatorHeight">@dimen/dp_4</item>
+    </style>
+
+
+    <style name="TabText" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/_14sp</item>
+    </style>
+
+    <style name="TabTextSrDetails" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">@dimen/_14sp</item>
+    </style>
+
+    <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <!-- Required for pre-Lollipop. -->
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownHorizontalOffset">-20dp</item>
+        <item name="android:minHeight">@dimen/dp_100</item>
+        <!-- Required for Lollipop. -->
+        <item name="android:overlapAnchor">false</item>
+    </style>
+
+</resources>

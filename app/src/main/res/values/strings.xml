@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Teacher Aid</string>
+    <string name="tv_text_app_slogan">Discover new teaching ideas every day</string>
+    <string name="text_ok">OK</string>
+    <string name="text_plans">Plans</string>
+    <string name="text_scan">Scan</string>
+    <string name="text_logbook">Logbook</string>
+    <string name="text_profile">Profile</string>
+    <string name="text_change_role">CHANGE ROLE</string>
+    <string name="text_skip">skip</string>
+    <string name="text_active_learning">Active Learning</string>
+    <string name="text_reconstruct_classroom">Reconstruct Classroom</string>
+    <string name="text_all_round_interaction">All Round Interaction</string>
+
+    <string name="text_to_create_an_adaptive_learning_environment_so_that_teacher_learn_their_own">To create an adaptive learning environment,so that teacher learn their own</string>
+    <string name="text_make_child">Make children easier to learn and understand knowledge</string>
+    <string name="text_learning_management">Learning Management, loss of efficiency? so easy?</string>
+    <string name="text_done">done</string>
+    <string name="text_welcome">Welcome to the Teacher Aid App</string>
+    <string name="text_select_board">Select Board</string>
+    <string name="text_select_medium">Select Medium</string>
+    <string name="text_select_subject">Select Subject</string>
+    <string name="text_select_class">Select Class</string>
+    <string name="text_select_topic">Select Topic</string>
+    <string name="text_select_class_subject">Select Class</string>
+    <string name="text_next">next</string>
+    <string name="text_select_topics">Select Topics</string>
+    <string name="text_quick_view">Quick View</string>
+    <string name="text_detailed_view">Detailed View</string>
+    <string name="text_board">Board</string>
+    <string name="text_class">Class</string>
+    <string name="text_subject">Subject</string>
+
+    <integer name="viewfinder_border_width">4</integer>
+    <integer name="viewfinder_border_length">60</integer>
+
+
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_generic">Unable to process request, please try again</string>
+    <string name="error_time_out">Connection error</string>
+    <string name="text_what_do_you_teach">What classes do you teach?</string>
+    <string name="text_download">Download</string>
+    <string name="text_mark_as_done">Mark As Done</string>
+    <string name="text_prev"><![CDATA[< Previous]]></string>
+    <string name="text_next1"><![CDATA[NEXT >]]></string>
+    <string name="text_your_qualification">Your qualification</string>
+    <string name="text_your_name">Your name</string>
+    <string name="text_qualification">Qualification</string>
+    <string name="text_name">Name</string>
+    <string name="text_save">Save</string>
+    <string name="text_hint_enter_your_name">Enter your name</string>
+    <string name="text_hint_enter_your_qualification">Enter your qualification</string>
+    <string name="text_add_more">Add more</string>
+    <string name="text_you_are_teaching">Your selection</string>
+    <string name="text_mins">min</string>
+    <string name="text_open">Open</string>
+    <string name="default_key_hash">szfjhkd89574q3dknvz45w389</string>
+    <string name="text_select_framework">Select Framework</string>
+    <string name="text_select_framework_first">Please selected Framework first.</string>
+    <string name="text_please_select_the_topic_you_want_to_see_the_lesson_plan_for">Please Select a topic from the list above.</string>
+    <string name="text_no_lessonplan_for_topic_selected">There are no plans available for the this topic.</string>
+    <string name="text_it_looks_empty_here">It Looks empty here.</string>
+    <string name="text_completed">Completed</string>
+
+</resources>

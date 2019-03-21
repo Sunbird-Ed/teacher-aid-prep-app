@@ -1,0 +1,246 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context="com.gurug.education.view.fragments.ProfileFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue1"
+        app:contentInsetEnd="@dimen/dp_0"
+        app:contentInsetStart="@dimen/dp_0">
+
+        <RelativeLayout
+            android:id="@+id/rl_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_10">
+
+            <com.gurug.education.utill.views.ImageViewCircle
+                android:id="@+id/iv_c_user_icon"
+                android:layout_width="@dimen/dp_35"
+                android:layout_height="@dimen/dp_35"
+                android:layout_centerVertical="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/ib_edit"
+                android:layout_toEndOf="@+id/iv_c_user_icon"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/dp_5">
+
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/noto_sans_regular"
+                    android:text="@string/text_your_name"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_16sp" />
+
+                <TextView
+                    android:id="@+id/tv_user_qualifications"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/noto_sans_regular"
+                    android:text="@string/text_your_qualification"
+                    android:textColor="@color/colorGrey3"
+                    android:textSize="@dimen/_10sp" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/ib_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@color/colorTransparent"
+                android:src="@drawable/ic_edit" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/ll_select_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_10">
+
+        <TextView
+            android:id="@+id/tv_selected_class"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_grey3_round"
+            android:drawableEnd="@drawable/ic_right_arrow"
+            android:fontFamily="@font/noto_sans_regular"
+            android:gravity="start|center"
+            android:minHeight="@dimen/dp_40"
+            android:padding="@dimen/dp_10"
+            android:text="@string/text_select_class"
+            android:textColor="@color/colorGrey2"
+            android:textSize="@dimen/_14sp" />
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tl_profile"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_below="@+id/rl_user_class"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@drawable/toolbar_drop_shadow"
+        android:elevation="@dimen/dp_5"
+        android:visibility="visible"
+        app:tabGravity="center"
+        app:tabIndicatorColor="@color/colorOrange"
+        app:tabSelectedTextColor="@color/colorOrange"
+        app:tabTextColor="@color/colorBlue1">
+
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_user_prefs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tl_profile">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_user_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dp_25"
+            android:visibility="gone">
+
+
+            <View
+                android:id="@+id/v_separator"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_1"
+                android:background="@color/cool_grey" />
+
+            <RelativeLayout
+                android:id="@+id/ll_class_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/v_separator"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dp_15"
+                android:visibility="gone"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/noto_sans_regular"
+                        android:text="@string/text_board"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/_10sp" />
+
+                    <TextView
+                        android:id="@+id/tv_board"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/_12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_select_class_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minWidth="@dimen/dp_80"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/noto_sans_regular"
+                            android:text="@string/text_class"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_10sp" />
+
+                        <TextView
+                            android:id="@+id/tv_class"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_12sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minWidth="@dimen/dp_80"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/noto_sans_regular"
+                            android:text="@string/text_subject"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_10sp" />
+
+                        <TextView
+                            android:id="@+id/tv_subject_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_12sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/ib_edit_class"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/ll_select_class_info"
+                    android:background="@color/colorTransparent"
+                    android:src="@drawable/ic_edit" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

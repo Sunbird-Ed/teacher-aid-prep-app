@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/dp_10">
+
+    <com.gurug.education.utill.views.ImageViewCircle
+        android:id="@+id/ci_class_subject_icon"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_gravity="center_horizontal"
+        app:civ_border_color="@color/colorWhite"
+        app:civ_border_width="@dimen/dp_2" />
+
+    <TextView
+        android:id="@+id/tv_subject_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:text="Science"
+        android:textColor="@color/medium_grey"
+        android:textSize="@dimen/_10sp" />
+
+</LinearLayout>

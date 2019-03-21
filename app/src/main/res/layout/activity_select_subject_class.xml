@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gurug.education.view.activity.SelectSubjectClassActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_select_class_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            app:contentInsetEnd="@dimen/dp_0"
+            app:contentInsetStart="@dimen/dp_0">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_10">
+
+
+                <ImageButton
+                    android:id="@+id/ib_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/colorTransparent"
+                    android:padding="@dimen/dp_10"
+                    android:src="@drawable/ic_back" />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/ib_back"
+                    android:fontFamily="@font/noto_sans_regular"
+                    android:text="@string/text_what_do_you_teach"
+                    android:textColor="@color/colorBlack1"
+                    android:textSize="@dimen/_16sp" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/ll_select_class_subject_drop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_select_class"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_15"
+                android:layout_marginTop="@dimen/dp_100"
+
+                android:background="@drawable/bg_grey3_round"
+                android:orientation="horizontal"
+                android:textColor="@color/colorGrey1"
+                android:textSize="@dimen/_16sp">
+
+                <com.gurug.education.utill.views.ImageViewCircle
+                    android:layout_width="@dimen/dp_30"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/dp_15"
+                    android:src="@drawable/ic_missing"
+                    android:visibility="gone" />
+
+
+                <TextView
+                    android:id="@+id/tv_select_class"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_right_arrow"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dp_15"
+                    android:text="@string/text_select_class"
+                    android:textColor="@color/colorGrey1"
+                    android:textSize="@dimen/_16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_select_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_15"
+                android:background="@drawable/bg_grey3_round"
+                android:orientation="horizontal"
+                android:textColor="@color/colorGrey1"
+                android:textSize="@dimen/_16sp">
+
+                <com.gurug.education.utill.views.ImageViewCircle
+                    android:layout_width="@dimen/dp_30"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/dp_15"
+                    android:src="@drawable/ic_missing"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_select_subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_grey3_round"
+                    android:drawableEnd="@drawable/ic_right_arrow"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="start|center"
+                    android:padding="@dimen/dp_15"
+                    android:text="@string/text_select_subject"
+                    android:textColor="@color/colorGrey1"
+                    android:textSize="@dimen/_16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_selected_teach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bt_next"
+
+        android:layout_below="@+id/ll_select_class_subject"
+        android:layout_marginStart="@dimen/dp_15"
+        android:layout_marginEnd="@dimen/dp_15"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/text_you_are_teaching"
+            android:textColor="@color/colorBlack" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_selected_teach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bt_add_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@drawable/btn_bg_selector"
+            android:enabled="true"
+            android:paddingStart="@dimen/dp_15"
+            android:paddingTop="@dimen/dp_5"
+            android:visibility="gone"
+            android:paddingEnd="@dimen/dp_15"
+            android:paddingBottom="@dimen/dp_5"
+            android:text="@string/text_add_more"
+            android:textColor="@color/btn_text_selector" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/bt_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/dp_15"
+        android:layout_marginEnd="@dimen/dp_15"
+        android:layout_marginBottom="@dimen/dp_15"
+        android:background="@drawable/btn_bg_selector"
+        android:enabled="false"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/text_done"
+        android:textAllCaps="true"
+        android:textColor="@color/btn_text_selector" />
+</RelativeLayout>
